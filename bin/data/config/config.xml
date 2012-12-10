@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	
+	
+	<dependencies>
+		
+		<!--<file id="sponsor01" name="" loadertype="loader" path="static/images/application/logo1.jpg" />-->
+		<file id="main_screen_background" name="" loadertype="loader" path="static/images/application/mainscreen.jpg" />
+		<file id="bg_01" name="" loadertype="loader" path="static/images/application/01.jpg" />
+		<file id="bg_02" name="" loadertype="loader" path="static/images/application/02.jpg" />
+		<file id="bg_03" name="" loadertype="loader" path="static/images/application/03.jpg" />
+		<file id="bg_04" name="" loadertype="loader" path="static/images/application/04.jpg" />
+		<file id="bg_05" name="" loadertype="loader" path="static/images/application/05.jpg" />
+		<file id="bg_06" name="" loadertype="loader" path="static/images/application/06.jpg" />
+		<file id="target" name="" loadertype="loader" path="static/images/application/target.png" />
+		
+	</dependencies>
+	
+	<applicationData>
+		<progressivePlay value="1" />
+	</applicationData>
+	
+	<sponsors>
+		
+		<sponsor id="sponsor01" time="2" />
+		
+	</sponsors>
+	
+	<levels>
+		
+		<level id="test_level1" name="Hit the Target" path="data/levels/level0.xml" />
+		<level id="test_level2" name="Two Targets" path="data/levels/level1.xml" />
+		<level id="test_level3" name="Moving Target" path="data/levels/level2.xml" />
+		<level id="test_level4" name="Multiple Moving Targets" path="data/levels/level3.xml" />
+		<level id="test_level5" name="Small Moving Target" path="data/levels/level4.xml" />
+		<level id="test_level6" name="Annoying Targets [wide level]" path="data/levels/level5.xml" />
+		<level id="test_level7" name="Annoying Targets 2 [wide level]" path="data/levels/level6.xml" />
+		
+	</levels>
+	
+	
+</data>

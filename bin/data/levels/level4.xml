@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	
+	<config>
+		
+		<!-- use 0 and 1 for true and false -->
+		
+		<other allowSkyShot="0" backgroundID="bg_05" />
+		<levelDimensions width="800" height="600"/>
+		
+		<shootingArea x="100" y="500" radius="50" />
+		<shotRelativePosition x="50" y="50" onMouse="false" />
+		<bounce left="0" right="0" bottom="0" top="0" />
+		
+	</config>
+	
+	<targets>
+		
+		<target>
+			
+			<position x="600" y="350"/>
+			<scale x="0.05" y="0.05" />
+			
+			<motion>
+				<param name="x" value="500" />
+				<param name="time" value="1" />
+				<param name="yoyo" value="1" />
+				<param name="repeat" value="-1" />
+			</motion>
+			
+			<motion>
+				<param name="y" value="250" />
+				<param name="time" value="1.41037" />
+				<param name="yoyo" value="1" />
+				<param name="repeat" value="-1" />
+			</motion>
+			
+		</target>
+		
+		
+	</targets>
+	
+</data>
